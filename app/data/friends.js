@@ -12,14 +12,14 @@ var friends = [
     answers: [4, 3, 2, 1, 4, 3, 2, 5, 4, 2]
   },
   {
-    name: "Chas",
+    name: "Chuck",
     photo:
-      "https://www.nashvillepublicradio.org/sites/wpln/files/styles/x_large/public/201506/chas-sisk.jpg",
+      "https://cdn.vox-cdn.com/thumbor/ZkvLmeVWY14ws8jHbZ0MFNA3C6o=/0x0:2880x1920/1820x1213/filters:focal(1085x343:1545x803):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/62388387/015_Chuck_Liddell.0.jpg",
     answers: [1, 3, 2, 4, 5, 2, 3, 4, 3, 4]
   },
   {
     name: "Champ",
-    photo: "https://en.wikipedia.org/wiki/File:Football_champ_poster.png",
+    photo: "https://upload.wikimedia.org/wikipedia/en/d/d8/Football_champ_poster.png",
     answers: [1, 3, 2, 5, 4, 3, 2, 3, 4, 5]
   },
   {

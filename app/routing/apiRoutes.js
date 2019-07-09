@@ -20,7 +20,7 @@ module.exports = function(app) {
       //runs through all current friends in list
       for(var i = 0; i < friends.length; i++){
         var diff = 0;
-        //run through scores to compare friends
+        //run through scores to compare against friends already in the array
         for(var j = 0; j < newFriendAnswers.length; j++){
           diff += (Math.abs(parseInt(friends[i].answers[j]) - parseInt(newFriendAnswers[j])));
         }
@@ -41,7 +41,6 @@ module.exports = function(app) {
       var bestFriend = friends[bestMatch];
 
       console.log(bestFriend)
-      res.json(bestFriend);
   
       //pushes new submission into the friendsList array
       friends.push(req.body);
