@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
 
 </head>
 
@@ -21,118 +22,172 @@
                 <div class="form-group">
                     <label class="col-form-label col-form-label-lg" for="inputLarge">Your Name (Required)</label>
                     <input class="form-control form-control-lg" type="text" placeholder="Your name here"
-                        id="inputLarge">
+                        id="name">
                 </div>
                 <div class="form-group">
                     <label class="col-form-label col-form-label-lg" for="inputLarge">A link to a picture of yourself
                         (Required)</label>
-                    <input class="form-control form-control-lg" type="text" placeholder="" id="inputLarge">
+                    <input class="form-control form-control-lg" type="text" placeholder="" id="photo">
                 </div>
                 <div class="form-group">
                     <label for="exampleSelect1">Your ideal night out involves waiting in long lines and drastically over paying for drinks</label>
-                    <select class="form-control" id="exampleSelect1">
-                        <option>1 (Strongly Disagree)</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5 (Strongly Agree)</option>
+                    <select class="form-control" id="q1">
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
                     </select>
                 </div>
                 <div class="form-group">
                     <label for="exampleSelect1">You are actively involved in snap chatting / instagramming / facebooking</label>
-                    <select class="form-control" id="exampleSelect1">
-                        <option>1 (Strongly Disagree)</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5 (Strongly Agree)</option>
+                    <select class="form-control" id="q2">
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
                     </select>
                 </div>
                 <div class="form-group">
                     <label for="exampleSelect1">You prefer a Coors banquet to a $15 vodka soda</label>
-                    <select class="form-control" id="exampleSelect1">
-                        <option>1 (Strongly Disagree)</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5 (Strongly Agree)</option>
+                    <select class="form-control" id="q3">
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
                     </select>
                 </div>
                 <div class="form-group">
                     <label for="exampleSelect1">Whether its skiing, hiking, snow shoeing, mountain biking, etc, there's no better way to spend a weekend than in the mountains</label>
-                    <select class="form-control" id="exampleSelect1">
-                        <option>1 (Strongly Disagree)</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5 (Strongly Agree)</option>
+                    <select class="form-control" id="q4">
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
                     </select>
                 </div>
                 <div class="form-group">
                     <label for="exampleSelect1">You are more of a dog person</label>
-                    <select class="form-control" id="exampleSelect1">
-                        <option>1 (Strongly Disagree)</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5 (Strongly Agree)</option>
+                    <select class="form-control" id="q5">
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
                     </select>
                 </div>
                 <div class="form-group">
                     <label for="exampleSelect1">You'd rather read a good book than watch TV</label>
-                    <select class="form-control" id="exampleSelect1">
-                        <option>1 (Strongly Disagree)</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5 (Strongly Agree)</option>
+                    <select class="form-control" id="q6">
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
                     </select>
                 </div>
                 <div class="form-group">
                     <label for="exampleSelect1">You'd rather go try a new restaurant than go to an old favorite</label>
-                    <select class="form-control" id="exampleSelect1">
-                        <option>1 (Strongly Disagree)</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5 (Strongly Agree)</option>
+                    <select class="form-control" id="q7">
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
                     </select>
                 </div>
                 <div class="form-group">
                     <label for="exampleSelect1">Weekends are for relaxing and unwinding, not for checking a bunch of stuff off your to-do list</label>
-                    <select class="form-control" id="exampleSelect1">
-                        <option>1 (Strongly Disagree)</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5 (Strongly Agree)</option>
+                    <select class="form-control" id="q8">
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
                     </select>
                 </div>
                 <div class="form-group">
                     <label for="exampleSelect1">You would go out of your way to see one of your favorite bands play</label>
-                    <select class="form-control" id="exampleSelect1">
-                        <option>1 (Strongly Disagree)</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5 (Strongly Agree)</option>
+                    <select class="form-control" id="q9">
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
                     </select>
                 </div>
                 <div class="form-group">
                     <label for="exampleSelect1">Day time parties are way better than partying all night</label>
-                    <select class="form-control" id="exampleSelect1">
-                        <option>1 (Strongly Disagree)</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5 (Strongly Agree)</option>
+                    <select class="form-control" id="q10">
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
                     </select>
                 </div>
             </fieldset>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary" id="submit">Submit</button>
             </fieldset>
         </form>
 
+        <div class="modal" id="results-modal">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Your best match!</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <h2 id="match-name"></h2>
+                  <img id="match-pic" src="" height="400" width="350" alt="Placeholder image if user didn't supply one">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
 
     </div>
+
+    <script type="text/javascript">
+
+        $("#submit").on("click", function(event) {
+          event.preventDefault();
+          var newFriend = {
+            name: $("#name").val().trim(),
+            photo: $("#photo").val().trim(),
+            answers: [
+                $("#q1").val(),
+                $("#q2").val(),
+                $("#q3").val(),
+                $("#q4").val(),
+                $("#q5").val(),
+                $("#q6").val(),
+                $("#q7").val(),
+                $("#q8").val(),
+                $("#q9").val(),
+                $("#q10").val(),
+            ],
+          };
+          $("input").val("");
+    
+          $.post("/api/friends", newFriend, function(data) {
+            console.log("added new potential friend" + newFriend)
+            $("#match-name").text(data.name)
+            $("#match-pic").attr("src", data.photo)
+            $("#results-modal").modal('show');
+        });
+
+        
+        });
+      </script>
+
 </body>
