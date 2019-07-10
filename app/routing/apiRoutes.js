@@ -28,7 +28,7 @@ module.exports = function(app) {
         //push results into answersArray
         answersArray.push(diff);
       }
-      console.log(answersArray)
+      // console.log(answersArray)
   
       //after all friends are compared, find best match
       for(var i = 0; i < answersArray.length; i++){
@@ -36,11 +36,11 @@ module.exports = function(app) {
           bestMatch = i;
         }
       }
-  
       //return bestMatch data
       var bestFriend = friends[bestMatch];
-
+      
       console.log(bestFriend)
+      res.json({name: bestFriend.name, photo: bestFriend.photo})
   
       //pushes new submission into the friendsList array
       friends.push(req.body);
